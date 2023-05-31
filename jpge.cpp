@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
 	std::fstream file{ fileName, std::ios_base::in | std::ios_base::binary };
 	if (!file.is_open()) {
 		std::perror("fopen");
-		std::cerr << "Sorry, could open the file (" << fileName << ")\n";
+		std::cerr << "sorry, could open the file (" << fileName << ")\n";
 		return -1;
 	}
 
